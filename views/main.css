@@ -1,0 +1,55 @@
+html {
+    font-size: 0.8rem;
+    font-weight: 100 !important;
+}
+
+body {    
+    font-weight: 100;
+}
+
+h1, h2, h3 {
+    font-family: 'Teko', sans-serif;
+    color:#BFA5D9;
+    padding-top: 4px;
+}
+
+h1 {
+    line-height: 1.5;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h2 {
+    line-height: 1.5;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+#app-header {
+    background-color: #f8f2ff;
+}
+
+.btn-success {
+    color: #FFFFFF;
+    background-color: #483E52;
+    border-color: #483E52;
+}
+
+.btn-success:hover {
+    color: #FFFFFF;
+    background-color: #BFA5D9;
+    border-color: #BFA5D9;
+}
+.btn-danger {
+    color: #FFFFFF;
+    background-color: #483E52;
+    border-color: #483E52;
+}
+
+.btn-danger:hover {
+    color: #FFFFFF;
+    background-color: #BFA5D9;
+    border-color: #BFA5D9;
+}
+  
+  

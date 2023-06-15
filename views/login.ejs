@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/main-centered.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body class="text-left">
+    <!--Formulario de bootstrap-->
+   
+          <form method="post" action="/login" class="form-signin">
+
+            <img class="mb-4" src="/images/logo taskit.png" alt="" width="72" height="70">
+    
+            <h1 class="h3 mb-3 font-weight-normal">Inicio de sesión</h1>
+            <!--Usuario-->
+              <label for="username" class="sr-only">Correo electrónico</label>
+              <input type="email" name="username" class="form-control" id="username" required>
+    
+              <!--Contraseña-->
+              <label for="password" class="sr-only">Contraseña</label>
+              <input type="password" class="form-control" id="password" name="password" required>
+    
+        <!--Formulario de bootstrap-->
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Iniciar sesión</button>
+            <p class="mt-5 mb-3 text-muted">
+              ¿No tienes cuenta? <a href="/signin">Regístrate aquí</a>
+            </p>
+            <p class="mt-5 mb-3 text-muted">
+              Pagina Principal <a href="/main">Regresar</a>
+            </p>
+          </form>
+    
+
+     
+
+
+</body>
+</html>

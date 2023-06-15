@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+background-color: white;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #764ba2;
+  border-color: #764ba2;
+}
+
+.btn-primary:hover {
+  background-color: #bfa5d9;
+  border-color: #bfa5d9;
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #764ba2;
+  border-color: #764ba2;
+}
