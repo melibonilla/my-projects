@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // se conecta a la base de datos del hermano de melissa
- mongoose.connect('mongodb+srv://thorpeandrewgon:Alohomora7.@cluster0.xcpxi0s.mongodb.net/toDO?retryWrites=true&w=majority', { useNewUrlParser: true });
+ mongoose.connect('mongodb+srv://expovoca2023:<password>@expoapp.gdu3fza.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
 //mongoose.connect('mongodb+srv://expovoca2023:Mlsb1029@expoapp.gdu3fza.mongodb.net/ExpoApp?retryWrites=true&w=majority', { useNewUrlParser: true });
 
 // ve si la cexion fue exitosa
